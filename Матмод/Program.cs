@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks.Dataflow;
+﻿//негров нет
+using System.Threading.Tasks.Dataflow;
 double a, b, xn, E=1,m,i=0;
 Console.Write("Введите первый корень a: ");
 a = Convert.ToDouble(Console.ReadLine());
@@ -25,3 +26,6 @@ while (E>0.001)
     Schet(xn);
     Console.WriteLine($"Корень x{i} найден: {xn} с точностью {(decimal)E}");
 }
+
+for (i = 0; i < 10; i++)
+    Console.WriteLine("Невермор вечен!!!");
